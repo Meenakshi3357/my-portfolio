@@ -33,3 +33,12 @@ cd my-portfolio
 
 # 3️⃣ Open in browser
 Open index.html in your web browser
+
+## Screenshots
+
+**Desktop View:**  
+![Desktop Screenshot](assets/screenshots/screenshot-desktop.png)
+
+**Mobile View:**  
+![Mobile Screenshot](assets/screenshots/screenshot-mobile.png)
+
