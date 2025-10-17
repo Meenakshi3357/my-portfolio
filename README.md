@@ -1,32 +1,32 @@
-# Meenakshi Ancha — Portfolio 
+# Meenakshi Ancha — Portfolio 🌐
 
-**Live Demo:** [https://meenakshiancha.github.io/portfolio-website/](https://meenakshiancha.github.io/portfolio-website/)
+**Live Demo:** [https://meenakshi3357.github.io/my-portfolio/](https://meenakshi3357.github.io/my-portfolio/)
 
-## Overview
+## 🧾 Overview
 This is my personal portfolio website showcasing my projects, skills, and contact information.  
-It’s built using **HTML**, **CSS**, and a bit of **JavaScript** — designed to be fully responsive across devices.
+Built using **HTML**, **CSS**, and **JavaScript**, it is fully responsive across desktop, tablet, and mobile devices.
 
-## Features
-- Responsive **About Me** section (image + text)
-- Responsive **Projects** section (project cards)
-- Functional **Contact Form** (frontend design)
-- Mobile-friendly layout using **Flexbox** and **Media Queries**
-- **Hamburger Menu** for mobile navigation
+## ✨ Features
+- Responsive **About Me** section (image + text)  
+- Responsive **Projects** section with project cards  
+- Functional **Contact Form** (frontend only)  
+- Mobile-friendly **navigation** with hamburger menu  
+- Clean, modern, and responsive design using **Flexbox** and **Media Queries**
 
-## Tech Stack
-- **HTML5**
-- **CSS3** (Flexbox, Media Queries)
+## 🛠️ Tech Stack
+- **HTML5**  
+- **CSS3** (Flexbox, Media Queries)  
 - **JavaScript** (for navbar toggle)
 
-## How to Run Locally
+## 🚀 How to Run Locally
 To view or edit this project on your own computer:
 
 ```bash
 # 1️⃣ Clone the repository
-git clone https://github.com/meenakshiancha/portfolio-website.git
+git clone https://github.com/meenakshi3357/my-portfolio.git
 
 # 2️⃣ Move into the folder
-cd portfolio-website
+cd my-portfolio
 
 # 3️⃣ Open in browser
 Open index.html in your web browser
