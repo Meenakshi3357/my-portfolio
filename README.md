@@ -37,8 +37,9 @@ Open index.html in your web browser
 ## Screenshots
 
 **Desktop View:**  
-![Desktop Screenshot](assets/screenshots/screenshot-Desktop.png)
+![Desktop Screenshot](assets/screenshots/Desktop.png)
 
 **Mobile View:**  
-![Mobile Screenshot](assets/screenshots/screenshot-Mobile.png)
+![Mobile Screenshot](assets/screenshots/Mobile.png)
+
 
