@@ -1,0 +1,413 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fdfdfd;
+    color: #333;
+}
+
+header {
+    background-color: #6200ea;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero section */
+.hero {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    color: #222;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+/* Profile image styling */
+.profile-container {
+    display: flex;
+    justify-content: center;  /* centers horizontally */
+    align-items: center;      /* centers vertically */
+    flex-direction: column;   /* stack image and text vertically */
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;          /* makes image circular */
+    object-fit: cover;           /* ensures proper cropping */
+    border: 3px solid #ddd;      /* optional border */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* subtle shadow */
+    margin-bottom: 20px;
+    display: block;
+}
+
+/* About section */
+.about {
+    padding: 40px 20px;
+    text-align: center;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: auto;
+}
+
+/* Projects section */
+.projects {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.projects ul {
+    list-style: none;
+    padding: 0;
+}
+
+.projects li {
+    background-color: #f3f3f3;
+    margin: 10px auto;
+    padding: 10px;
+    max-width: 400px;
+    border-radius: 10px;
+}
+.profile-img-container {
+    width: 150px;             /* final circular size */
+    height: 150px;            /* must match width */
+    border-radius: 50%;       /* makes it circular */
+    overflow: hidden;         /* hides parts of the image outside the circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #ddd;   /* optional border */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* optional shadow */
+    margin-bottom: 20px;
+}
+
+.profile-img-container img {
+    width: 100%;              /* fill the container */
+    height: 100%;
+    object-fit: cover;        /* ensures image fills the circle properly */
+}
+.contact {
+    background-color: #f3f3f3;
+    padding: 50px 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contact a {
+    color: #6200ea;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #6200ea;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    margin-top: 30px;
+}
+/* ===== ABOUT PAGE STYLING ===== */
+
+.about {
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about h2 {
+    color: #6200ea;
+    margin-bottom: 15px;
+}
+
+.about p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about ul li {
+    background-color: #f3e5f5;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 8px;
+}
+.contact {
+    background-color: #f3f3f3;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.contact p {
+    margin-bottom: 25px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+    resize: none;
+}
+
+.contact-form button {
+    background-color: #6200ea;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #4b00b5;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .contact-form {
+        width: 90%;
+    }
+}
+/* Navigation Menu Styling */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ffeb3b; /* Hover effect color */
+}
+
+/* Active Page Highlight */
+nav a.active {
+    border-bottom: 2px solid #ffeb3b;
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 768px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+/* ✅ Default Menu Hidden on Mobile */
+.menu-icon {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.menu-icon div {
+  width: 100%;
+  height: 3px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+@media (max-width: 768px) {
+  .menu-icon {
+    display: flex;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  nav {
+    display: none;
+    flex-direction: column;
+    background: #6200ea;
+    padding: 10px;
+    text-align: center;
+  }
+
+  nav a {
+    margin: 10px 0;
+    display: block;
+  }
+}
+/* About Section */
+#about {
+  padding: 50px 20px;
+  background: #f9f9f9;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.about-container img {
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.about-text {
+  max-width: 600px;
+}
+
+.about-text h2 {
+  color: #6200ea;
+  margin-bottom: 15px;
+}
+
+.about-text p {
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column; /* stack image above text */
+    text-align: center;     /* center everything */
+    gap: 20px;
+  }
+
+  .about-container img {
+    width: 80%;             /* smaller image on mobile */
+    max-width: 250px;
+  }
+
+  .about-text p {
+    font-size: 16px;        /* smaller text on mobile */
+  }
+}
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;      /* allow multiple rows */
+  gap: 30px;
+  justify-content: center; /* center all cards */
+}
+
+.project-card {
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  background: #f9f9f9;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  .projects-container {
+    flex-direction: column; /* stack cards vertically */
+    align-items: center;
+    gap: 20px;
+  }
+
+  .project-card {
+    width: 80%; /* fit mobile screen */
+  }
+}
+/* Contact Form */
+.contact-form {
+  display: flex;
+  flex-direction: column; /* stack fields vertically */
+  max-width: 600px;       /* limits form width on large screens */
+  margin: 0 auto;         /* center form horizontally */
+  gap: 15px;              /* spacing between fields */
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;            /* makes input/textarea fill container */
+  box-sizing: border-box; /* ensures padding doesn't break width */
+}
+
+.contact-form button {
+  padding: 12px;
+  background-color: #6200ea;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #4b00b5;
+}
+@media (max-width: 768px) {
+  .contact-form {
+    width: 90%; /* fit most of mobile screen */
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 14px;
+  }
+
+  .contact-form button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}

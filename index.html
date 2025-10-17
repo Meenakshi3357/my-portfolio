@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Meenakshi Ancha</h1>
+
+  <!-- ✅ Hamburger Icon -->
+  <!-- ✅ Hamburger Icon -->
+<div class="menu-icon" onclick="toggleMenu()">
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+
+  <!-- ✅ Navigation Links -->
+  <nav id="navbar">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+    <div class="profile-container">
+        <div class="profile-img-container">
+            <img src="Meenakshi.png" alt="Meenakshi Ancha">
+        </div>
+        <h2>Welcome to My Portfolio</h2>
+        <p>I’m an aspiring web developer passionate about creating beautiful and functional websites.</p>
+    </div>
+</section>
+
+<section class="projects" id="projects">
+  <h2>My Projects</h2>
+  <div class="projects-container">
+    <div class="project-card">
+      <h3>🌐 Global E-commerce Insights Dashboard</h3>
+      <p>Dashboard analyzing global e-commerce data.</p>
+    </div>
+    <div class="project-card">
+      <h3>📊 FNP Data Analysis</h3>
+      <p>Data analysis project for FNP datasets.</p>
+    </div>
+    <div class="project-card">
+      <h3>💻 Personal Portfolio Website</h3>
+      <p>My own portfolio website built with HTML & CSS.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ✅ Contact Section -->
+<section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <p>If you’d like to collaborate or say hi, feel free to reach out!</p>
+    <form action="#" method="post" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2025 Meenakshi Ancha | Built with 💜 HTML & CSS</p>
+</footer>
+
+<!-- ✅ JavaScript Toggle Menu -->
+<script>
+  function toggleMenu() {
+    const nav = document.getElementById("navbar");
+    nav.style.display = nav.style.display === "block" ? "none" : "block";
+  }
+</script>
+
+</body>
+</html>
